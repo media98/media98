@@ -1,0 +1,31 @@
+@font-face{
+font-family: Bitwise;
+src: url('customfont.ttf');
+}
+body{
+background: url('bg.jpg') #000000 no-repeat center center fixed;
+ user-select:none;
+-moz-user-select:none;
+-webkit-user-select:none;
+-ms-user-select:none;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+z-index:0;
+overflow:hidden;
+color:#83f352;
+font-family:Bitwise, monospace;
+font-weight:bold;
+text-shadow: 0.1em 0.1em 0.2em #83f352;
+ cursor:none;
+}
+ .center {
+position:fixed;
+height:100%;
+width:140%;
+z-index:-1;
+background-image:url('logo.png');
+background-repeat:no-repeat;
+background-position:center;
+}
